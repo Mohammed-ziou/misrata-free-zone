@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complete Responsive Event Organizer Website Design Tutorial</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- slider style sheet -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo"
+        ><img src="images/logo.png" height="45px" alt=""
+      /></a>
+      <!-- <a href="#" class="logo"><span>e</span>vento</a> -->
+
+      <nav class="navbar">
+        <a href="#about">about</a>
+        <a href="#review">Why</a>
+        <a href="#price">Goals</a>
+        <a href="#gallery">gallery</a>
+        <a href="#Sessions">Sessions</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div id="menu-bars" class="fas fa-bars"></div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <div class="home" id="home">
+      <div class="home-cover">
+        <div class="content">
+          <h3>
+            Proposal of the International misurata
+            <span> Forum for Free Zones </span>
+          </h3>
+          <!-- <a href="#" class="btn">contact us</a> -->
+        </div>
+        <!-- slider -->
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="3000"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/slide-1.jpg"
+                class="d-block w-100"
+                alt="slider image"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/slide-2.jpg"
+                class="d-block w-100"
+                alt="slider image"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/slide-3.jpg"
+                class="d-block w-100"
+                alt="slider image"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- end slider -->
+      </div>
+
+      <!-- <div class="swiper-container home-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/slide-1.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/slide-2.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/slide-3.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/slide-4.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/slide-5.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/slide-6.jpg" alt="" />
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span></span>about us</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/Misrata-Free-Zone-about.jpg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>A positive mindset brings positive things</h3>
+          <p>
+            The Misurata Free Zone is an area liberated from all tax, customs,
+            commercial, monetary and other restrictions, with the exception of
+            those related to faith, national and national security, health and
+            environmental protection The Misurata Free Zone
+          </p>
+          <p>
+            is the first free economic zone established on the Libyan territory
+            in accordance with Law No. (9) of 2000 AD regarding free zones and
+            transit trade, with the aim of diversifying sources of income,
+            raising the level of performance of the local economy and opening
+            job and training opportunities, by creating an attractive investment
+            environment for activities The diversified economy and transit trade
+            through optimal utilization of the available local capabilities and
+            resources, on top of which is the distinguished geographical
+            location and the sea port.
+            <a href="https://mfzly.com/" target="_blank">https://mfzly.com/</a>
+          </p>
+          <a href="#" class="btn">contact us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="service" id="review">
+      <h1 class="heading">Why The<span> Confrence</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fa-solid fa-oil-well"></i>
+          <h3>Hydrocarbon dependency</h3>
+          <p>
+            The dependence of the Libyan economy on hydrocarbon resources is in
+            the range of 70% of GDP, more than 95% of exports, and 90% or more
+            of government revenues.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-earth-africa"></i>
+          <h3>Opportunities</h3>
+          <p>
+            The existence of inter-investment and trade opportunities across
+            Libya and the continents of the world.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-money-bill-trend-up"></i>
+          <h3>Investment</h3>
+          <p>
+            The free zones and major Mediterranean and African companies are
+            looking forward to investment and trade exchange with the Misurata
+            Free Zone.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-comments"></i>
+          <h3>Communication</h3>
+          <p>
+            The low quality of the infrastructure for the activity of the free
+            zones represented in logistics and communication technology.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-solar-panel"></i>
+          <h3>Natural resources</h3>
+          <p>
+            Non-optimal exploitation of the geographical location and natural
+            resources for transit trade and services.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- price section starts  -->
+
+    <section class="price" id="price">
+      <h1 class="heading"><span></span>Goals</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <h3 class="title">Improving infrastructure</h3>
+          <ul>
+            <li>
+              <i class="fas fa-check"></i> Increasing the performance of
+              infrastructure and the quality of services for free zones
+            </li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3 class="title">Attracting Investment</h3>
+          <ul>
+            <li>
+              <i class="fas fa-check"></i>Attracting foreign and local
+              investment directed to the development of free zones.
+            </li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3 class="title">Participation</h3>
+          <ul>
+            <li>
+              <i class="fas fa-check"></i>Participation of state institutions in
+              activating the legislation and laws regulating free zones.
+            </li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3 class="title">Strengthening partnerships</h3>
+          <ul>
+            <li>
+              <i class="fas fa-check"></i>Strengthening partnerships and
+              international trade between free zones.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- price section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+      <h1 class="heading">EXHIBITION <span>gallery</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/g-1.jpg" alt="" />
+          <h3 class="title">photos and events</h3>
+          <div class="icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-2.jpg" alt="" />
+          <h3 class="title">photos and events</h3>
+          <div class="icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-3.jpg" alt="" />
+          <h3 class="title">photos and events</h3>
+          <div class="icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-4.jpg" alt="" />
+          <h3 class="title">photos and events</h3>
+          <div class="icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-5.jpg" alt="" />
+          <h3 class="title">photos and events</h3>
+          <div class="icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-9.jpg" alt="" />
+          <h3 class="title">photos and events</h3>
+          <div class="icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- Sessions start -->
+    <section class="price sessions" id="Sessions">
+      <h1 class="heading"><span>SESSIONs</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <h3 class="title">SESSION 1</h3>
+          <ul>
+            <li>
+              Pioneering models and projects for free zones and transit trade
+            </li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3 class="title">SESSION 2</h3>
+          <ul>
+            <li>
+              Challenges facing the activation of laws and regulations for free
+              zones
+            </li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3 class="title">SESSION 3</h3>
+          <ul>
+            <li>
+              Applied mechanisms for providing architectural and digital
+              infrastructure
+            </li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3 class="title">SESSION 4</h3>
+          <ul>
+            <li>
+              Investment and international trade and its role in the growth of
+              the volume of imports and exports
+            </li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3 class="title">SESSION 5</h3>
+          <ul>
+            <li>
+              The role of insurance in the development of the international
+              trade system
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Sessions end -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> us</h1>
+
+      <form action="">
+        <div class="inputBox">
+          <input type="text" placeholder="name" />
+          <input type="email" placeholder="email" />
+        </div>
+        <div class="inputBox">
+          <input type="number" placeholder="Phone number" />
+          <input type="text" placeholder="subject" />
+        </div>
+        <textarea
+          name=""
+          placeholder="your message"
+          id=""
+          cols="30"
+          rows="4"
+        ></textarea>
+        <input type="submit" value="send message" class="btn" />
+      </form>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"> <i class="fas fa-arrow-right"></i> home </a>
+          <a href="#about"> <i class="fas fa-arrow-right"></i> about </a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"> <i class="fas fa-phone"></i> +218 94 000 0000 </a>
+          <a href="#"> <i class="fas fa-phone"></i> +218 91 000 0000 </a>
+          <a href="#"> <i class="fas fa-envelope"></i> madiziou@gmail.com </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> misrata, libyA </a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+          <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+          <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+          <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+        </div>
+      </div>
+
+      <div class="credit">
+        created by <span><a href="https://hololtech.ly/">HOLOL</a></span> | all
+        rights reserved
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- theme toggler  -->
+
+    <!-- <div class="theme-toggler">
+      <div class="toggle-btn">
+        <i class="fas fa-cog"></i>
+      </div>
+
+      <h3>choose color</h3>
+
+      <div class="buttons">
+        <div class="theme-btn" style="background: #025593"></div>
+        <div class="theme-btn" style="background: #69f731"></div>
+        <div class="theme-btn" style="background: #ff0033"></div>
+        <div class="theme-btn" style="background: #20bf6b"></div>
+        <div class="theme-btn" style="background: #fa8231"></div>
+        <div class="theme-btn" style="background: #fc427b"></div>
+      </div>
+    </div> -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

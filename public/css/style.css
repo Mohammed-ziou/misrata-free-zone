@@ -574,6 +574,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.5rem;
+  justify-items: center;
 }
 
 .footer .box-container .box h3 {
@@ -587,6 +588,9 @@ h1 {
   font-size: 1.5rem;
   padding: 1rem 0;
   color: var(--background-color);
+}
+.footer .box-container .box:first-of-type a:first-of-type {
+  text-align: center;
 }
 
 .footer .box-container .box a i {
@@ -701,6 +705,9 @@ h1 {
     border-top: 0.1rem solid #222;
     background: var(--background-color);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .header .navbar.active {
@@ -713,7 +720,7 @@ h1 {
 
   .header .navbar a {
     display: flex;
-    background: #222;
+    background: #eee;
     border-radius: 0.5rem;
     padding: 1.3rem;
     margin: 1.3rem;
